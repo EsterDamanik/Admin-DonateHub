@@ -1,0 +1,59 @@
+/* Styling untuk Navigationbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+  }
+  
+  /* Styling untuk container utama */
+  .container {
+    margin-top: 0px;
+  }
+  
+  /* Styling untuk form */
+  .form-group {
+    margin-bottom: 2rem; /* Diperbesar sedikit untuk jarak yang lebih besar antara setiap field */
+  }
+  
+  .form-label {
+    font-weight: normal; /* Mengembalikan font-weight ke bold */
+  }
+  
+  .form-control {
+    padding: 1rem; /* Diperbesar untuk memberikan tampilan lebih besar */
+    font-size: 1rem;
+    border-radius: 10px; /* Menambahkan border radius untuk sudut yang lebih lembut */
+    border: 1px solid #ced4da; /* Menambahkan border agar terlihat lebih jelas */
+  }
+  
+  /* Mengatur warna placeholder */
+  .form-control::placeholder {
+    color: #6c757d; /* Warna abu-abu untuk placeholder */
+  }
+  
+  /* Mengatur tampilan tombol submit */
+  button[type="submit"] {
+    padding: 0.7rem 2rem; /* Diperbesar untuk tampilan yang lebih besar */
+    font-size: 1.2rem; /* Diperbesar untuk tampilan yang lebih besar */
+    font-weight: normal; /* Mengembalikan font-weight ke bold */
+    border-radius: 10px; /* Menambahkan border radius untuk sudut yang lebih lembut */
+    background-color: #4F6F52; /* Warna latar belakang biru */
+    border: none; /* Menghapus border agar lebih bersih */
+    color: white; /* Warna teks putih */
+    transition: background-color 0.3s; /* Efek transisi saat hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #A5BA93; /* Warna latar belakang biru yang lebih gelap saat hover */
+  }
+  
+  /* Tambahkan styling tambahan sesuai kebutuhan */
+  
